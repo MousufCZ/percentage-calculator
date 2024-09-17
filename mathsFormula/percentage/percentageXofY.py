@@ -5,7 +5,7 @@ class PercXOfY():
         self.percent = percent
         self.numOfYears = None
 
-    # Page 64
+# Page 64
     def percXofY(self):
         x = self.x
         percent = self.percent

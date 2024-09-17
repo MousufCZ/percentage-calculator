@@ -46,33 +46,3 @@ class PercentChange:
         multi_diff = self.div_the_difference()
         percentageDifference = multi_diff * 100
         return print(percentageDifference)
-
-
-    def class_import(self):
-        """Class being imported takes to parameter args.
-        Variables from existing class instantiation."""
-        orig_num_input1 = self.orig_num_input_1
-        percent_input = self.orig_num_input_2
-
-        classImportTest = percentOf.PercentageOfNumber(orig_num_input1, percent_input)
-        
-        classImportTest.input_original_number()
-        classImportTest.input_percentage
-        classImportTest.total_after_perc_increase()
-        classImportTest.total_after_perc_decrease()
-
-"""
-def test_class_import():
-    # Hard code parameters
-    originalNum1 = 1.2
-    percentage = 20.00
-
-    # Create class instantiation
-    test = PercentChange(originalNum1, percentage)
-    
-    #Importing function from another folder
-    test.class_import()
-
-if __name__ == "__main__":
-    test_class_import()
-"""
